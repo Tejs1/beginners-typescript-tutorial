@@ -10,7 +10,7 @@ interface User {
    */
   role: "admin" | "user" | "super-admin";
 }
-
+type Role = "user" | "admin" | "super-admin";
 export const defaultUser: User = {
   id: 1,
   firstName: "Matt",

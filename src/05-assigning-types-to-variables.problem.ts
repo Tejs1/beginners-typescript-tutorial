@@ -11,10 +11,11 @@ interface User {
  * How do we ensure that defaultUser is of type User
  * at THIS LINE - not further down in the code?
  */
-const defaultUser: User = {
-  id: 1,
-  firstName: "wdw",
-  lastName: "sds",
+let defaultUser: User;
+defaultUser = {
+  id: 354,
+  firstName: "tejs",
+  lastName: "thorat",
   isAdmin: true,
 };
 
